@@ -1,0 +1,31 @@
+{
+  "name": "prototype-json-database-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start:dev": "node dist/online-shop/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustyraz/prototype-json-database-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rustyraz/prototype-json-database-service/issues"
+  },
+  "homepage": "https://github.com/rustyraz/prototype-json-database-service#readme",
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "faker": "^5.5.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/faker": "^5.5.5",
+    "uuid": "^8.3.2"
+  }
+}
